@@ -7,5 +7,3 @@ if (isset($_GET["iddelet"])) {
     $delete = $dbh->query($query);
     echo '<meta http-equiv="refresh" content="0; url=lish_pelanggan.php">' ;
 }
-
-?>
